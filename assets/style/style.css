@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.signInContainer {
+  background-color: #efefee;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  background-color: #fff;
+  min-height: 300px;
+  max-height: 100%;
+  width: 450px;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0.1px 2px;
+  overflow-y: auto;
+}
+
+.column form {
+  display: flex;
+  flex-direction: column;
+}
+
+.column form input[type="text"],
+.column form input[type="email"],
+.column form input[type="password"] {
+  font-size: 20px;
+  margin: 10px 0;
+  color: rgba(22, 90, 199, 0.8);
+  border: none;
+  border-bottom: 1px solid #dedede;
+  height: 30px;
+}
+
+.column form input[type="text"]::placeholder,
+.column form input[type="email"]::placeholder,
+.column form input[type="password"]::placeholder {
+  opacity: 0.4;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.column form input[type="submit"] {
+  color: white;
+  font-size: 17px;
+  height: 38px;
+  width: 90px;
+  background-color: #0099e6;
+  border: none;
+  border-radius: 10px;
+  margin: auto;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.header {
+  margin: auto;
+  padding: 20px 0px;
+}
+.header h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  weight: 1000;
+  color: #0077b3;
+  font-size: 40px;
+}
+
+.header span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: #66b3ff;
+  weight: 500;
+}
+
+.header img {
+  margin-left: 25%;
+}
+.signInMessage {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+}
+
+.signInMessage a {
+  color: blue;
+  text-decoration: none;
+}
