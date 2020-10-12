@@ -95,3 +95,8 @@ input:focus {
   color: blue;
   text-decoration: none;
 }
+
+.errorMessage {
+  color: red;
+  text-decoration: wavy;
+}
